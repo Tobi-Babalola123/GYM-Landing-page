@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "preview": "vite preview"
+    "build": "npx vite build",
+    "dev": "npx vite",
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -73,21 +73,8 @@
     "vite": "6.3.5"
   },
   "peerDependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": true
-    },
-    "react-dom": {
-      "optional": true
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "6.3.5"
-    }
+    "react": "18.x",
+    "react-dom": "18.x"
   },
   "engines": {
     "node": "18.x"
