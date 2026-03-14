@@ -4,11 +4,15 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "npx vite build",
-    "dev": "npx vite",
-    "preview": "npx vite preview"
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "vite": "6.3.5",
+    "@vitejs/plugin-react": "4.7.0",
+    "@tailwindcss/vite": "4.1.12",
+    "tailwindcss": "4.1.12",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.5",
@@ -66,12 +70,7 @@
     "tw-animate-css": "1.3.8",
     "vaul": "1.1.2"
   },
-  "devDependencies": {
-    "@tailwindcss/vite": "4.1.12",
-    "@vitejs/plugin-react": "4.7.0",
-    "tailwindcss": "4.1.12",
-    "vite": "6.3.5"
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "react": "18.x",
     "react-dom": "18.x"
