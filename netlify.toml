@@ -2,5 +2,6 @@
   command = "npm run build"
   publish = "dist"
 
-[build.environment]
+  [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
